@@ -1,0 +1,26 @@
+.Header{
+  width: 970px;
+  /*margin: 0 auto;*/
+  left: 50%;
+  margin-left: -485px;
+  position: absolute;
+}
+
+.Header-list{
+  float: right;
+  list-style:none;
+}
+
+.Header-list-li{
+  float: left;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.Header-list-li a{
+  color: white;
+}
+
+.Banner-img{
+  width:100%;
+  min-width: 970px;
+}
