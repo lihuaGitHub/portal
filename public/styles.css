@@ -1,5 +1,5 @@
 .Header{
-  width: 970px;
+  width: 1170px;
   /*margin: 0 auto;*/
   left: 50%;
   margin-left: -485px;
@@ -22,5 +22,118 @@
 
 .Banner-img{
   width:100%;
-  min-width: 970px;
+  min-width: 1170px;
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ .Detailed{
+    width: 1170px;
+  margin: auto;
+  overflow: hidden;
+  }
+  .Detailed-title{
+    width: 1170px;
+    float: left;
+  }
+    .Detailed-enterpriseWrap{
+      width:1200px;
+    }
+    .Detailed-enterprise{
+      background: #f2f4f5;
+      text-align:center;
+      width: 280px;
+      height: 280px;
+      float: left;
+      margin-right: 17px;
+  }
+  .Detailed-title-p{
+      float: left;
+      margin-top: 60px; 
+     margin-bottom:30px;
+  }
+  .Detailed-title-span-a{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+  }
+  .Detailed-title-span-b{
+   font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+  }
+.Detailed-img{
+    margin-top: 60px; 
+     margin-bottom:30px;
+}
+.Detailed-p-a{
+  margin-bottom: 10px;
+  font-size: 20px;
+    font-family: 微软雅黑;
+    color:#808080;
+    line-height: 10px;
+}
+.Detailed-p-b{
+  font-size: 14px;
+    font-family: 微软雅黑;
+    color:#808080;
+    line-height: 10px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.Navigation{
+  width: 100%;
+  /*margin: 0 auto;*/
+}
+.Navigation-main{
+  width: 1170px;
+  margin: auto;
+}
+.Navigation-normal{
+
+  width: 25%;
+  float: left;
+  background: #f2f4f5;
+}
+.Navigation-span-a{
+  height: 150px;
+  float: left;
+  width: 35%;
+}
+.Navigation-span-b{
+  height: 75px;
+  float: right;
+  width: 65%;
+}
+.Navigation-span-c{
+  height: 75px;
+  float: right;
+  width: 65%;
+}
+.Navigation-title-a{
+ text-decoration:underline;
+ float: right;
+  margin-top: 50%;
+  font-size: 32px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+}
+.Navigation-title-b{
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+}
+.Navigation-title-c{
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+}
+/**************************************/
+
