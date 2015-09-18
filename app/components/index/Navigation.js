@@ -6,6 +6,7 @@ var Navigation = React.createClass({
       render:function(){
       	return(	
       		<div className="Navigation">
+      			
 	      		<div className="Navigation-main">
 	      		      <Shownavigation  titleTop='1' titleA='产品介绍' titleB='Product'/>
 	      		      <Shownavigation  titleTop='2' titleA='征信知识' titleB='Product'/>

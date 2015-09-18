@@ -18,6 +18,9 @@
 }
 .Header-list-li a{
   color: white;
+  font-size: 16px;
+   font-family: "微软雅黑";
+    font-weight: bold;
 }
 
 .Banner-img{
@@ -66,22 +69,36 @@
     margin-top: 60px; 
      margin-bottom:30px;
 }
-.Detailed-p-a{
+.Detailed-title-a{
   margin-bottom: 10px;
   font-size: 20px;
     font-family: 微软雅黑;
     color:#808080;
-    line-height: 10px;
+    line-height: 20px;
 }
-.Detailed-p-b{
+.Detailed-title-change-a{
+  margin-bottom: 10px;
+  font-size: 20px;
+    font-family: 微软雅黑;
+    color:#ffffff;
+    line-height: 20px;
+}
+.Detailed-title-b{
   font-size: 14px;
     font-family: 微软雅黑;
     color:#808080;
     line-height: 10px;
 }
+.Detailed-title-change-b{
+  font-size: 14px;
+    font-family: 微软雅黑;
+    color:#ffffff;
+    line-height: 10px;
+}
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .Navigation{
   width: 100%;
+  background: #f2f4f5;
   /*margin: 0 auto;*/
 }
 .Navigation-main{
@@ -135,5 +152,95 @@
     font-weight: bold;
     color:#4d91aa;
 }
-/**************************************/
+/********************Viewmore***********************/
+.Viewmore{
+  width: 100%;
+}
+.Viewmore-main{
+  width: 1170px;
+  margin: auto;
+}.Viewmore-main-more{
+   margin-top: 40px;
+ width: 400px;
+ border-color: #297b99;
+ border-style: solid;
+ border-width: 2px;
+margin-left: auto;
+margin-right: auto;
+ text-align: center;
+ line-height: 60px;
+ overflow: hidden;
+}
+.Viewmore-main-more-a{
+  font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#297b99;
+}
+/*******************Brand*******************/
+.Brand{
+  width: 100%;
+   margin-top: 40px;
+}
+.Brand-main{
+  width: 1170px;
+  margin: auto;
+
+
+}
+.Brand-main-title{
+margin-bottom: 20px;
+}
+.Brand-main-title-a{
+  font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+}
+.Brand-main-title-b{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#4d91aa;
+}
+.Brand-main-picture{
+  background: #f2f4f5;
+  height: 600px;
+
+}
+/************** Footer ****************/
+.Footer{
+width: 100%;
+}
+.Footer-main{
+  width: 1170px;
+  margin: auto;
+margin-top: 30px;
+}
+.Footer-independent{
+width: 180px;
+background: #9BDED7;
+}
+.Footer-title{
+    margin-top: 30px;
+
+    color:#ff000f;
+}
+.Footer-title-a{
+  list-style:none;
+
+text-align: center;
+font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+.Footer-list-li{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: #ffffff;
+}
+
 
