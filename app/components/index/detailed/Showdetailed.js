@@ -6,7 +6,7 @@ var Showdetailed = React.createClass({
                                                  <div className="Detailed-enterpriseWrap">
 		            <div className="Detailed-enterprise">
 	       	       	  <img className="Detailed-img" src={this.props.img} />
-	       	       	  <p className="Detailed-title-change-a">{this.props.titleTop}</p>
+	       	       	  <p className="Detailed-title-a">{this.props.titleTop}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleA}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleB}</p>
 	       	            </div>

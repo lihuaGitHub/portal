@@ -6,7 +6,7 @@ var Navigation = require('./index/Navigation')
 var Brand=require('./index/Brand')
 var Viewmore=require('./index/Viewmore')
 var Footer=require('./index/Footer')
-
+var Banner=require('./index/Banner')
 var Index = React.createClass({
       componentDidMount: function () {
 
@@ -15,7 +15,7 @@ var Index = React.createClass({
         return (
           <div >
             <Header />
-            <img className="Banner-img" src="/images/b.jpg" />
+           <Banner/>
             <Navigation />
             <Detailed />
             <Viewmore/>

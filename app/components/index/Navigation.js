@@ -3,15 +3,18 @@ var React = require('react/addons');
 var Shownavigation=require('./navigation/Shownavigation');
 
 var Navigation = React.createClass({
+	
       render:function(){
       	return(	
       		<div className="Navigation">
       			
 	      		<div className="Navigation-main">
-	      		      <Shownavigation  titleTop='1' titleA='产品介绍' titleB='Product'/>
-	      		      <Shownavigation  titleTop='2' titleA='征信知识' titleB='Product'/>
-	      		      <Shownavigation  titleTop='3' titleA='公司概况' titleB='Product'/>
-	      		      <Shownavigation  titleTop='4' titleA='资讯中心' titleB='Product'/>
+	      		     <div id="Navigation-a"> 
+	      		     	<Shownavigation  titleTop='1' titleA='产品介绍' titleB='Product'/>
+	      		     </div>
+	      		      <div id="Navigation-a"><Shownavigation  titleTop='2' titleA='征信知识' titleB='Product'/></div>
+	      		      <div id="Navigation-a"><Shownavigation  titleTop='3' titleA='公司概况' titleB='Product'/></div>
+	      		      <div id="Navigation-a"><Shownavigation  titleTop='4' titleA='资讯中心' titleB='Product'/></div>
 	      		</div>
       		</div>
       	)

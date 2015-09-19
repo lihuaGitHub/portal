@@ -2,7 +2,7 @@
   width: 1170px;
   /*margin: 0 auto;*/
   left: 50%;
-  margin-left: -485px;
+  margin-left: -585px;
   position: absolute;
 }
 
@@ -26,6 +26,14 @@
 .Banner-img{
   width:100%;
   min-width: 1170px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.Banner{
+  width: 100%;
+ margin:auto;
+}
+.Banner-main{
+
 }
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
  .Detailed{
@@ -99,18 +107,20 @@
 .Navigation{
   width: 100%;
   background: #f2f4f5;
-  /*margin: 0 auto;*/
 }
 .Navigation-main{
   width: 1170px;
   margin: auto;
 }
 .Navigation-normal{
-
   width: 25%;
   float: left;
   background: #f2f4f5;
 }
+/*#Navigation-a:hover{
+  height: 180px;
+  line-height: 180px;
+}*/
 .Navigation-span-a{
   height: 150px;
   float: left;
@@ -211,25 +221,26 @@ margin-bottom: 20px;
 /************** Footer ****************/
 .Footer{
 width: 100%;
+background: #4d91aa;
 }
 .Footer-main{
   width: 1170px;
+  height: 300px;
   margin: auto;
-margin-top: 30px;
 }
 .Footer-independent{
-width: 180px;
-background: #9BDED7;
+  width: 20%;
+  height: 300px;
+
 }
 .Footer-title{
-    margin-top: 30px;
-
+  text-align: center;
     color:#ff000f;
+
 }
 .Footer-title-a{
   list-style:none;
-
-text-align: center;
+  text-align: center;
 font-size: 14px;
     font-family: "微软雅黑";
     font-weight: bold;

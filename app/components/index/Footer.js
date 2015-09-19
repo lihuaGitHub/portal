@@ -6,14 +6,9 @@ var Footer = React.createClass({
        	return(
        	          <div className="Footer">
                                     <div className="Footer-main">
-                                          <div className="Footer-independent">
-                                                <div className="Footer-title">
-                                                      <p className="Footer-title-a">shoye</p>
-                                                </div>
-                                                <div className="Footer-list">
-                                                      <p className="Footer-li">Footer</p>
-                                                  
-                                                </div>
+                                            <div className="Footer-independent">
+                                                      
+                                                             <p className="Footer-title-a">sFooter</p>   
                                           </div>
                                     </div>
                                </div>
