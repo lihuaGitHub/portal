@@ -14,7 +14,10 @@ var Brand = React.createClass({
                                           </p>
                                     </div>
                                     <div className="Brand-main-picture">
-                                    picture
+                                              <img  className="Brand-img"src="images/b.jpg"/>
+                                                <div className="Brand-img-title">
+
+                                                </div>
                                     </div>
                              </div>
                       </div>

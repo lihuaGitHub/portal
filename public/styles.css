@@ -1,4 +1,17 @@
 /****************Header************************/
+
+body{
+  magin:0;
+  padding:0;
+  width: 100%;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .Header{
   width: 1170px;
   left: 50%;
@@ -33,9 +46,9 @@
 .Banner-img{
   position: absolute;
   width:100%;
-  height: 600px;
+  height: 700px;
   min-width: 1170px;
-  transition: all .5s ease;
+  transition: all 2.5s ease;
 }
 .Show-out{
   opacity:1;
@@ -45,13 +58,13 @@
 }
 .Toggle-btn-prev{
   position: absolute;
-  right:100px;
-  top: 550px;
+  right:500px;
+  top: 650px;
 }
 .Toggle-btn-next{
   position: absolute;
-  right:50px;
-  top: 550px;
+  right:450px;
+  top: 650px;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -126,15 +139,25 @@
 .Navigation{
   width: 100%;
   background: #f2f4f5;
+  margin: auto;
+  height: 150px;
 }
 .Navigation-main{
   width: 1170px;
   margin: auto;
 }
-.Navigation-normal{
+.Navigation-blcok{
   width: 25%;
-  float: left;
+  float:left;
+}
+.Navigation-normal{
+  /*width: 25%;*/
+  /*float: left;*/
   background: #f2f4f5;
+}
+.Navigation-mormal:hover{
+  background: #4d91aa !importent;
+  color: #f2f4f5 !importent;
 }
 /*#Navigation-a:hover{
   height: 180px;
@@ -237,6 +260,14 @@ margin-bottom: 20px;
   height: 600px;
 
 }
+.Brand-img{
+   width:100%;
+  height: 600px;
+  min-width: 1170px;
+}
+.Brand-main-title{
+
+}
 /************** Footer ****************/
 .Footer{
 width: 100%;
@@ -246,12 +277,19 @@ background: #4d91aa;
   width: 1170px;
   height: 300px;
   margin: auto;
+  margin-top: 100px;
 }
 .Footer-independent{
-  width: 20%;
+  width: 15%;
   height: 300px;
-
+  float: left;
 }
+.Footer-independent-left{
+  width: 15%;
+  height: 300px;
+  float: right;
+}
+
 .Footer-title{
   text-align: center;
     color:#ff000f;
@@ -263,14 +301,22 @@ background: #4d91aa;
 font-size: 14px;
     font-family: "微软雅黑";
     font-weight: bold;
+    padding-top:40px;
+    padding-bottom: 15px;
+      color: #ffffff;
 }
 .Footer-list-li{
-  margin-top: 8px;
+  margin-top: 15px;
   text-align: center;
   font-size: 14px;
     font-family: "微软雅黑";
-    font-weight: bold;
     color: #ffffff;
+}
+.end{
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background: #197082;
 }
 
 

@@ -1,12 +1,11 @@
     /** @jsx React.DOM */
 var React = require('react/addons');
 var Header = require('./common/Header');
-var Detailed=require('./index/Detailed')
-var Navigation = require('./index/Navigation')
 var Brand=require('./index/Brand')
 var Viewmore=require('./index/Viewmore')
 var Footer=require('./index/Footer')
 var Banner=require('./index/Banner')
+var Hover=require('./index/Hover')
 var Index = React.createClass({
       componentDidMount: function () {
 
@@ -16,8 +15,7 @@ var Index = React.createClass({
           <div >
           <Header />
            <Banner/>
-            <Navigation />
-            <Detailed />
+           <Hover/>
             <Viewmore/>
             <Brand/>
             <Footer/>
