@@ -14,7 +14,7 @@ var Index = React.createClass({
       render: function () {
         return (
           <div >
-            <Header />
+          <Header />
            <Banner/>
             <Navigation />
             <Detailed />
@@ -37,7 +37,7 @@ module.exports = Index;
 
 /*
  handle:function(id){
-            
+
       }
 id="brand" onMouseOver={this.handle.bind(this,id)}
 //
