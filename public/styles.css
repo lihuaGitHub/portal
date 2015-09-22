@@ -14,7 +14,7 @@ body{
 
 .Header{
   width: 1170px;
-  left: 50%;
+  left: 53%;
   margin-left: -585px;
   position: absolute;
   z-index: 110;
@@ -27,8 +27,8 @@ body{
 
 .Header-list-li{
   float: left;
-  margin-right: 40px;
-  margin-top: 10px;
+  margin-right: 60px;
+  margin-top: 20px;
 }
 .Header-list-li a{
   color: white;
@@ -88,6 +88,15 @@ body{
       float: left;
       margin-right: 17px;
   }
+  .Detailed-enterprise:hover{
+          background: #297b99;
+  }
+  .Detailed-enterprise:hover .Detailed-title-a{
+    color:#ffffff;
+  }
+   .Detailed-enterprise:hover .Detailed-title-b{
+    color:#ffffff;
+  }
   .Detailed-title-p{
       float: left;
       margin-top: 60px;
@@ -105,9 +114,36 @@ body{
     font-weight: bold;
     color:#4d91aa;
   }
-.Detailed-img{
-    margin-top: 60px;
+  .Detailed-img{
+      margin-top: 60px;
      margin-bottom:30px;
+     margin-left: 40%;
+     height: 58px;
+     width: 58px;
+  }
+.Detailed-img-a{
+     background: url(images/normal-a.png);
+}
+.Detailed-img-b{
+     background: url(images/normal-b.png);
+}
+.Detailed-img-c{
+     background: url(images/normal-c.png);
+}
+.Detailed-img-d{
+     background: url(images/normal-d.png);
+}
+.Detailed-enterprise:hover .Detailed-img-b{
+     background: url(images/change-b.png);
+}
+.Detailed-enterprise:hover .Detailed-img-a{
+     background: url(images/change-a.png);
+}
+.Detailed-enterprise:hover .Detailed-img-c{
+     background: url(images/change-c.png);
+}
+.Detailed-enterprise:hover .Detailed-img-d{
+     background: url(images/change-d.png);
 }
 .Detailed-title-a{
   margin-bottom: 10px;
@@ -148,16 +184,32 @@ body{
 }
 .Navigation-blcok{
   width: 25%;
+  height: 150px;
   float:left;
+  position: relative;
 }
 .Navigation-normal{
   /*width: 25%;*/
   /*float: left;*/
+  width:100%;
   background: #f2f4f5;
 }
-.Navigation-mormal:hover{
-  background: #4d91aa !importent;
-  color: #f2f4f5 !importent;
+.Navigation-normal:hover{
+  background: #297b99;
+  position: absolute;
+  bottom: 0;
+  height: 180px;
+  cursor:pointer;
+}
+.Navigation-normal:hover .Navigation-title-a{
+color:#ffffff;
+border-color: #ffffff;
+}
+.Navigation-normal:hover .Navigation-title-b{
+color:#ffffff;
+}
+.Navigation-normal:hover .Navigation-title-c{
+color:#ffffff;
 }
 /*#Navigation-a:hover{
   height: 180px;
@@ -179,11 +231,13 @@ body{
   width: 65%;
 }
 .Navigation-title-a{
- text-decoration:underline;
+border-color: #4d91aa;
+border-width: 3px;
+border-bottom-style: solid;
  float: right;
-  margin-top: 50%;
+  margin-top: 45%;
   font-size: 32px;
-    font-family: "微软雅黑";
+    font-family: "Arial";
     font-weight: bold;
     color:#4d91aa;
 }
@@ -311,6 +365,8 @@ font-size: 14px;
   font-size: 14px;
     font-family: "微软雅黑";
     color: #ffffff;
+}.Footer-img{
+  float: right;
 }
 .end{
   width: 100%;

@@ -9,12 +9,18 @@ var Banner=React.createClass({
           }
         },
         componentDidMount: function () {
-          // window.setInterval(this.next,3000);
+          window.setInterval(this.next,3000);
         },
         next: function() {
           var curIndex = this.state.imgState.indexOf(true);
           var nextImgState = [false,false,false];
-          nextImgState[curIndex+1] = true;
+          if(curIndex==2){
+          	curIndex=-1;
+          	nextImgState[curIndex+1] = true;
+          }else{
+          	nextImgState[curIndex+1] = true;
+          }
+          
           this.setState({
             imgState: nextImgState
           })
@@ -22,7 +28,12 @@ var Banner=React.createClass({
         prev: function() {
           var curIndex = this.state.imgState.indexOf(true);
           var nextImgState = [false,false,false];
-          nextImgState[curIndex-1] = true;
+           if(curIndex==0){
+          	curIndex=3;
+          	nextImgState[curIndex-1] = true;
+          }else{
+          	nextImgState[curIndex-1] = true;
+          }
           this.setState({
             imgState: nextImgState
           })
@@ -52,6 +63,10 @@ var Banner=React.createClass({
                       <img className={imgClass[0]} src="/images/b.jpg" />
                       <img className={imgClass[1]} src="/images/ps2.jpg" />
                       <img className={imgClass[2]} src="/images/ps3.jpg" />
+                      <div className="Banner-button">
+                      	<a herf="#"className="prev"><i className="i-prev"></i></a>
+                      	<a  herf="#"className="next"><i className="i-next"></i></a>
+                      </div>
                       <button className="Toggle-btn-next" onClick={this.next}>next</button>
                       <button className="Toggle-btn-prev" onClick={this.prev}>prev</button>
        	     </div>

@@ -40,7 +40,7 @@ var Footer = React.createClass({
                                           </div>
                                           <div className="Footer-independent-left">
                                                              <p className="Footer-title-a">关注我们</p>
-                                                             <p className="Footer-list-li">联系方式</p> 
+                                                             <img  className=" Footer-img" src="images/Qrcode.jpg"/> 
                                           </div>
                                     </div>
                                     <div className="end">

@@ -2,7 +2,6 @@
 var React = require('react/addons');
 var Shownavigation = React.createClass({
 	render:function(){
-		var classABA = "Navigation-span-a"+this.props.active;
 		return(
                                           <div className="Navigation-normal clearfix">
       		      	<div className="Navigation-span-a">

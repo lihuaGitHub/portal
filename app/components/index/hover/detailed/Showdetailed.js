@@ -5,7 +5,7 @@ var Showdetailed = React.createClass({
 		return(
                                                  <div className="Detailed-enterpriseWrap">
 		            <div className="Detailed-enterprise">
-	       	       	  <img className="Detailed-img" src={this.props.img} />
+                                                               <div className={this.props.bg}></div>
 	       	       	  <p className="Detailed-title-a">{this.props.titleTop}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleA}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleB}</p>
@@ -15,7 +15,42 @@ var Showdetailed = React.createClass({
 	}
 });
 module.exports = Showdetailed;
-/*
+/*****************************
+var React = require('react/addons');
+var Showdetailed = React.createClass({
+      render:function(){
+            return(
+                                                 <div className="Detailed-enterpriseWrap">
+                        <div className="Detailed-enterprise">
+                                <img className="Detailed-img" src={this.props.img} />
+                                <p className="Detailed-title-a">{this.props.titleTop}</p>
+                                <p className="Detailed-title-b">{this.props.titleA}</p>
+                                <p className="Detailed-title-b">{this.props.titleB}</p>
+                              </div>
+                                            </div>
+            )
+      }
+});
+module.exports = Showdetailed;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div className="Detailed-enterprise">
        	       	  <img className="Detailed-img" src="/images/normal-a.png" />
        	       	  <p className="Detailed-p-a">企业征信</p>
