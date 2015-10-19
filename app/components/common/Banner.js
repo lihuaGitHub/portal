@@ -20,7 +20,7 @@ var Banner=React.createClass({
           }else{
           	nextImgState[curIndex+1] = true;
           }
-          
+
           this.setState({
             imgState: nextImgState
           })
@@ -56,12 +56,14 @@ var Banner=React.createClass({
                 'Hide-off': !this.state.imgState[2],
                 'Banner-img': true
               }));
+            console.log(this.props);
+            // console.log(this.props.background[0]);
              return(
        	<div className="Banner" style={{marginTop:this.props.mTop}}>
        	    <div className="Banner-main">
-                <img className={imgClass[0]} src={this.props.backgound[0]} />
-                <img className={imgClass[1]} src={this.props.backgound[1]} />
-                <img className={imgClass[2]} src={this.props.backgound[2]} />
+                <img className={imgClass[0]} src={this.props.backgroundImgs[0]} />
+                <img className={imgClass[1]} src={this.props.backgroundImgs[1]} />
+                <img className={imgClass[2]} src={this.props.backgroundImgs[2]} />
        	    </div>
             <div className="buttonGroup">
                 <button className="Toggle-btn-next" onClick={this.next}>next</button>

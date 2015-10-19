@@ -1,24 +1,26 @@
     /** @jsx React.DOM */
 var React = require('react/addons');
 var Header = require('./common/Header');
-var Brand=require('./index/Brand')
-var Viewmore=require('./index/Viewmore')
-var Footer=require('./index/Footer')
-var Banner=require('./index/Banner')
-var Hover=require('./index/Hover')
+var Brand=require('./index/Brand');
+var Viewmore=require('./index/Viewmore');
+var Footer=require('./index/Footer');
+var LandPage=require('./index/LandPage');
+var Hover=require('./index/Hover');
 var Index = React.createClass({
       componentDidMount: function () {
 
       },
       render: function () {
+
         return (
           <div >
           <Header />
-           <Banner mTop={-70} background={["/images/b.jpg", "/images/ps2.jpg", "/images/ps3.jpg"]} />
-           <Hover/>
-            <Viewmore/>
-            <Brand/>
-            <Footer/>
+          <LandPage />
+
+           <Hover />
+            <Viewmore />
+            <Brand />
+            <Footer />
           </div>
         )
       }

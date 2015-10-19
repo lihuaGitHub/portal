@@ -1,10 +1,11 @@
-/** @jsx React.DOM */  
+/** @jsx React.DOM */
 var React = require('react/addons');
-var Banner= require('./Banner')
+var Banner= require('../common/Banner');
 
 var Brand = React.createClass({
 
     render:function(){
+        var backgroundImgs = ["/images/ps3.jpg", "/images/b.jpg", "/images/ps2.jpg"];
         return(
             <div  className="Brand">
                 <div className="Brand-main">
@@ -15,7 +16,7 @@ var Brand = React.createClass({
                         </p>
                     </div>
                     <div className="Brand-main-picture">
-                        <Banner />
+                        <Banner backgroundImgs={backgroundImgs} />
                     </div>
                     <div className="Brand-img-title">
                         <p>誉存公司成功监测88贷平台高危，保障财产书亿元</p>
