@@ -3,7 +3,7 @@ var React = require('react/addons');
 
 
 var Banner=React.createClass({
-      getInitialState: function() {
+        getInitialState: function() {
           return {
             imgState: [true, false, false]
           }
@@ -57,19 +57,16 @@ var Banner=React.createClass({
                 'Banner-img': true
               }));
              return(
-       	<div className="Banner">
-
-       	     <div className="Banner-main">
-                      <img className={imgClass[0]} src="/images/b.jpg" />
-                      <img className={imgClass[1]} src="/images/ps2.jpg" />
-                      <img className={imgClass[2]} src="/images/ps3.jpg" />
-                      <div className="Banner-button">
-                      	<a herf="#"className="prev"><i className="i-prev"></i></a>
-                      	<a  herf="#"className="next"><i className="i-next"></i></a>
-                      </div>
-                      <button className="Toggle-btn-next" onClick={this.next}>next</button>
-                      <button className="Toggle-btn-prev" onClick={this.prev}>prev</button>
-       	     </div>
+       	<div className="Banner" style={{marginTop:this.props.mTop}}>
+       	    <div className="Banner-main">
+                <img className={imgClass[0]} src={this.props.backgound[0]} />
+                <img className={imgClass[1]} src={this.props.backgound[1]} />
+                <img className={imgClass[2]} src={this.props.backgound[2]} />
+       	    </div>
+            <div className="buttonGroup">
+                <button className="Toggle-btn-next" onClick={this.next}>next</button>
+                <button className="Toggle-btn-prev" onClick={this.prev}>prev</button>
+            </div>
        	</div>
        	)
    }

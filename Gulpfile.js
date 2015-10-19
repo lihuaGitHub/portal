@@ -18,4 +18,5 @@ gulp.task('watch', ['watch']);
 
 gulp.task('watch', function () {
     gulp.watch('app/**/*.*', ['build']);
+    // gulp.watch('public/**/*.css', ['build']);
 });

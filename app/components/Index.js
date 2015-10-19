@@ -14,7 +14,7 @@ var Index = React.createClass({
         return (
           <div >
           <Header />
-           <Banner/>
+           <Banner mTop={-70} background={["/images/b.jpg", "/images/ps2.jpg", "/images/ps3.jpg"]} />
            <Hover/>
             <Viewmore/>
             <Brand/>

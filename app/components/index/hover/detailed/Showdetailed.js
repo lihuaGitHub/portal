@@ -3,14 +3,14 @@ var React = require('react/addons');
 var Showdetailed = React.createClass({
 	render:function(){
 		return(
-                                                 <div className="Detailed-enterpriseWrap">
+              <div className="Detailed-enterpriseWrap">
 		            <div className="Detailed-enterprise">
-                                                               <div className={this.props.bg}></div>
+                  <div className={this.props.bg}></div>
 	       	       	  <p className="Detailed-title-a">{this.props.titleTop}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleA}</p>
 	       	       	  <p className="Detailed-title-b">{this.props.titleB}</p>
-	       	            </div>
-                                            </div>
+	       	        </div>
+              </div>
 		)
 	}
 });

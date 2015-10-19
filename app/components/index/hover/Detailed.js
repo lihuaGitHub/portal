@@ -28,8 +28,8 @@ var Detailed = React.createClass({
        	                                  <span className="Detailed-title-span-b"> /  Porduct</span>
        	                           </p>
        	             </div>  
-       	             <div >
-                                                 <Showdetailed titleA='全面数据披露'titleB='精准核000实信息' titleTop='企业征信' bg="Detailed-img Detailed-img-a"/></div>
+       	             <div>
+                                                 <Showdetailed titleA='全面数据披露' titleB='精准核000实信息' titleTop='企业征信' bg="Detailed-img Detailed-img-a"/></div>
                                      <div >
                                                  <Showdetailed titleA='智能匹配' titleB='独家分析社会属性'titleTop='个人征信' bg="Detailed-img Detailed-img-b"/></div>
        	             <div >
@@ -44,7 +44,7 @@ var Detailed = React.createClass({
                           <div className="Detailed">
                                   <div className="Detailed-title">
                                          <p className="Detailed-title-p">
-                                                <span className="Detailed-title-span-a">产品介绍22 </span>
+                                                <span className="Detailed-title-span-a"></span>
                                                 <span className="Detailed-title-span-b"> /  Porduct</span>
                                          </p>
                            </div>  

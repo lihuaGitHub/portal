@@ -1,11 +1,14 @@
 /****************Header************************/
-
+ol, ul{
+  padding: 0;
+  margin: 0;
+}
 body{
-  magin:0;
+  margin:0;
   padding:0;
   width: 100%;
+  height: 100%;
 }
-
 .clearfix:after{
   content: "";
   display: block;
@@ -13,10 +16,9 @@ body{
 }
 
 .Header{
+  position: relative;
   width: 1170px;
-  left: 53%;
-  margin-left: -585px;
-  position: absolute;
+  margin: 0 auto;
   z-index: 110;
 }
 
@@ -27,26 +29,32 @@ body{
 
 .Header-list-li{
   float: left;
-  margin-right: 60px;
-  margin-top: 20px;
+  width: 100px;
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
 }
 .Header-list-li a{
-  color: white;
+  color: #ffffff;
   font-size: 16px;
-   font-family: "微软雅黑";
-    font-weight: bold;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+.Header-list-li a:hover{
+  color: #ffffff;
 }
 
 
 /****************Banner************************/
 
 .Banner{
-  height: 700px;
+  position: relative;
+  height: 800px;
 }
 .Banner-img{
   position: absolute;
   width:100%;
-  height: 700px;
+  height: 800px;
   min-width: 1170px;
   transition: all 2.5s ease;
 }
@@ -56,40 +64,50 @@ body{
 .Hide-off{
   opacity:0;
 }
+.buttonGroup{
+  position: absolute;
+  width: 1170px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -585px;
+  height: 60px;
+}
 .Toggle-btn-prev{
   position: absolute;
-  right:500px;
-  top: 650px;
+  right: 100px;
+  bottom: 10px;
+  z-index: 300;
 }
 .Toggle-btn-next{
   position: absolute;
-  right:450px;
-  top: 650px;
+  right: 0;
+  bottom: 10px;
+  z-index: 300;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
  .Detailed{
     width: 1170px;
-  margin: auto;
-  overflow: hidden;
+    margin: auto;
+    overflow: hidden;
   }
   .Detailed-title{
     width: 1170px;
     float: left;
   }
-    .Detailed-enterpriseWrap{
-      width:1200px;
-    }
-    .Detailed-enterprise{
-      background: #f2f4f5;
-      text-align:center;
-      width: 280px;
-      height: 280px;
-      float: left;
-      margin-right: 17px;
+  .Detailed-enterpriseWrap{
+    width:1200px;
+  }
+  .Detailed-enterprise{
+    background: #f2f4f5;
+    text-align:center;
+    width: 280px;
+    height: 280px;
+    float: left;
+    margin-right: 17px;
   }
   .Detailed-enterprise:hover{
-          background: #297b99;
+    background: #297b99;
   }
   .Detailed-enterprise:hover .Detailed-title-a{
     color:#ffffff;
@@ -98,9 +116,10 @@ body{
     color:#ffffff;
   }
   .Detailed-title-p{
-      float: left;
-      margin-top: 60px;
-     margin-bottom:30px;
+    float: left;
+    height: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
   }
   .Detailed-title-span-a{
     font-size: 20px;
@@ -231,107 +250,115 @@ color:#ffffff;
   width: 65%;
 }
 .Navigation-title-a{
-border-color: #4d91aa;
-border-width: 3px;
-border-bottom-style: solid;
- float: right;
+  border-color: #4d91aa;
+  border-width: 3px;
+  border-bottom-style: solid;
+  float: right;
   margin-top: 45%;
   font-size: 32px;
-    font-family: "Arial";
-    font-weight: bold;
-    color:#4d91aa;
+  font-family: "Arial";
+  font-weight: bold;
+  color:#4d91aa;
 }
 .Navigation-title-b{
   float: left;
   margin-left: 20px;
   margin-top: 50px;
   font-size: 20px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    color:#4d91aa;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#4d91aa;
 }
 .Navigation-title-c{
   float: left;
   margin-left: 20px;
   font-size: 20px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    color:#4d91aa;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#4d91aa;
 }
 /********************Viewmore***********************/
 .Viewmore{
+  margin-top: 40px;
   width: 100%;
 }
 .Viewmore-main{
   width: 1170px;
   margin: auto;
-}.Viewmore-main-more{
-   margin-top: 40px;
- width: 400px;
- border-color: #297b99;
- border-style: solid;
- border-width: 2px;
-margin-left: auto;
-margin-right: auto;
- text-align: center;
- line-height: 60px;
- overflow: hidden;
+}
+.Viewmore-main-more{
+   width: 400px;
+   height: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   line-height: 60px;
+   border: 1px solid #297b99;
 }
 .Viewmore-main-more-a{
   font-size: 20px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    color:#297b99;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#297b99;
 }
 /*******************Brand*******************/
 .Brand{
   width: 100%;
-   margin-top: 40px;
+  margin-top: 40px;
 }
 .Brand-main{
   width: 1170px;
-  margin: auto;
-
-
+  margin: 0 auto;
 }
 .Brand-main-title{
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .Brand-main-title-a{
   font-size: 20px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    color:#4d91aa;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#4d91aa;
 }
 .Brand-main-title-b{
-    font-size: 14px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    color:#4d91aa;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#4d91aa;
 }
 .Brand-main-picture{
   background: #f2f4f5;
   height: 600px;
-
 }
-.Brand-img{
-   width:100%;
+.Brand-main-picture .Banner{
   height: 600px;
-  min-width: 1170px;
 }
-.Brand-main-title{
-
+.Brand-main-picture .Banner-img{
+  height: 600px;
+}
+.Brand-img-title{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin-top: -60px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color:#ffffff;
+  background: rgba(0, 0, 0, .4);
+  z-index: 200;
 }
 /************** Footer ****************/
 .Footer{
 width: 100%;
+margin-top: 90px;
 background: #4d91aa;
 }
 .Footer-main{
   width: 1170px;
   height: 300px;
   margin: auto;
-  margin-top: 100px;
 }
 .Footer-independent{
   width: 15%;
@@ -346,26 +373,33 @@ background: #4d91aa;
 
 .Footer-title{
   text-align: center;
-    color:#ff000f;
+  color:#ff000f;
 
 }
 .Footer-title-a{
   list-style:none;
   text-align: center;
-font-size: 14px;
-    font-family: "微软雅黑";
-    font-weight: bold;
-    padding-top:40px;
-    padding-bottom: 15px;
-      color: #ffffff;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  padding-top:40px;
+  padding-bottom: 15px;
+  color: #ffffff;
 }
 .Footer-list-li{
   margin-top: 15px;
   text-align: center;
   font-size: 14px;
-    font-family: "微软雅黑";
-    color: #ffffff;
-}.Footer-img{
+  font-family: "微软雅黑";
+  color: #ffffff;
+}
+.Footer-list-li a{
+  color: #ffffff;
+}
+.Footer-list-li a:hover{
+  color: #ffffff;
+}
+.Footer-img{
   float: right;
 }
 .end{

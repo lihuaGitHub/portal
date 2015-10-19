@@ -6,7 +6,7 @@ var Contact = React.createClass({
       },
       render: function () {
         return (
-          <div>
+          <div >
               contact page
           </div>
         )

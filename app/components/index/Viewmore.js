@@ -7,7 +7,7 @@ var Viewmore = React.createClass({
        	 <div className="Viewmore">
                              <div className="Viewmore-main">
                                           <div className="Viewmore-main-more">
-                                                  <a className="Viewmore-main-more-a">查看更多</a>
+                                                  <a href="#" className="Viewmore-main-more-a">查看更多</a>
                                           </div>
                              </div>
                       </div>
