@@ -3,7 +3,7 @@ var React = require('react/addons');
 var Header = require('./common/Header');
 var Brand=require('./index/Brand');
 var Viewmore=require('./index/Viewmore');
-var Footer=require('./index/Footer');
+var Footer=require('./common/Footer');
 var LandPage=require('./index/LandPage');
 var Hover=require('./index/Hover');
 var Index = React.createClass({
@@ -14,10 +14,9 @@ var Index = React.createClass({
 
         return (
           <div >
-          <Header />
-          <LandPage />
-
-           <Hover />
+            <Header />
+            <LandPage />
+            <Hover />
             <Viewmore />
             <Brand />
             <Footer />

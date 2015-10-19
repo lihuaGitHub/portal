@@ -3,7 +3,7 @@ Index = React.createFactory(require('../components/Index'));
 Contact = React.createFactory(require('../components/Contact'));
 
 module.exports = function(app) {
-      app.get('/contact', function(req, res){
+    app.get('/contact', function(req, res){
         // React.renderToString takes your component
           // and generates the markup
         var reactHtml = React.renderToString(Contact({}));

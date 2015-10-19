@@ -5,7 +5,7 @@ var LandPage = React.createClass({
        render:function(){
         var backgroundImgs = ["/images/b.jpg", "/images/ps2.jpg", "/images/ps3.jpg"];
         return(
-                  <Banner mTop={"-70"} backgroundImgs={backgroundImgs} />
+            <Banner mTop={"-70"} backgroundImgs={backgroundImgs} />
         )
        }
 });

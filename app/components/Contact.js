@@ -1,5 +1,6 @@
     /** @jsx React.DOM */
 var React = require('react/addons');
+var Header = require('./common/Header');
 
 var Contact = React.createClass({
       componentDidMount: function () {
@@ -7,7 +8,7 @@ var Contact = React.createClass({
       render: function () {
         return (
           <div>
-              contact page
+              <Header />
           </div>
         )
       }

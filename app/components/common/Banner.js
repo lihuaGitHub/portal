@@ -56,7 +56,7 @@ var Banner=React.createClass({
                 'Hide-off': !this.state.imgState[2],
                 'Banner-img': true
               }));
-            console.log(this.props);
+            // console.log(this.props);
             // console.log(this.props.background[0]);
              return(
        	<div className="Banner" style={{marginTop:this.props.mTop}}>

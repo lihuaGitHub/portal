@@ -27,7 +27,7 @@ var Detailed = React.createClass({
        	                                  <span className="Detailed-title-span-a">产品介绍 </span>
        	                                  <span className="Detailed-title-span-b"> /  Porduct</span>
        	                           </p>
-       	             </div>  
+       	                    </div>  
        	             <div>
                                                  <Showdetailed titleA='全面数据披露' titleB='精准核000实信息' titleTop='企业征信' bg="Detailed-img Detailed-img-a"/></div>
                                      <div >

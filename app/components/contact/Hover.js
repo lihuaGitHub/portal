@@ -1,7 +1,8 @@
-    /** @jsx React.DOM */
-var React=require('react/addons');
+/** @jsx React.DOM */
+var React = require('react/addons');
 var Detailed=require('./hover/Detailed');
 var Navigation=require('./hover/Navigation');
+
 
 var Hover= React.createClass({
     getInitialState: function() {
@@ -22,7 +23,7 @@ var Hover= React.createClass({
   				<Detailed showIndex = {this.state.showDetIndex} />
   			</div>
   			)
-  	}
+  		}
 	});
 
 module.exports = Hover;
