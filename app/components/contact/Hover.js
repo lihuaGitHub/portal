@@ -1,7 +1,5 @@
 /** @jsx React.DOM */
 var React = require('react/addons');
-var Detailed=require('./hover/Detailed');
-var Navigation=require('./hover/Navigation');
 
 
 var Hover= React.createClass({
@@ -19,8 +17,7 @@ var Hover= React.createClass({
   	render:function(){
   		return(
   			<div className="Hover">
-  				<Navigation handle={this.handle} />
-  				<Detailed showIndex = {this.state.showDetIndex} />
+  			
   			</div>
   			)
   		}
