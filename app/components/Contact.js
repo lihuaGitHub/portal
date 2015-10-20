@@ -2,7 +2,7 @@
 var React = require('react/addons');
 var Header = require('./common/Header');
 var Map = require('./contact/Map');
-var Hover = require('./contact/Hover');
+var ContactHover = require("./contact/ContactHover")
 var Footer = require('./common/Footer');
 
 var Contact = React.createClass({
@@ -13,7 +13,7 @@ var Contact = React.createClass({
           <div>
               <Header />
               <Map />
-              <Hover />
+              <ContactHover />
               <Footer />
           </div>
         )

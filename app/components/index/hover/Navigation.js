@@ -23,7 +23,7 @@ var Navigation = React.createClass({
       		return(	
       		<div className="Navigation">
 	      		<div className="Navigation-main clearfix">
-	      		     <div id="Navigation-a" className="Navigation-blcok clearfix"  data-index="a" onMouseOver={this.props.handle.bind(null,'1')}>
+	      		     <div id="Navigation-a"  className="Navigation-blcok clearfix"  data-index="a" onMouseOver={this.props.handle.bind(null,'1')}>
 	      		     	<Shownavigation  titleTop='1' titleA='产品介绍' titleB='Product'/>
 	      		     </div>
 	      		      <div id="Navigation-b" className="Navigation-blcok clearfix" data-index="b" onMouseOver={this.props.handle.bind(null,'2')}>

@@ -395,6 +395,7 @@ background: #4d91aa;
 }
 .Footer-list-li a{
   color: #ffffff;
+  text-decoration: none;
 }
 .Footer-list-li a:hover{
   color: #ffffff;
@@ -445,4 +446,14 @@ background: #4d91aa;
   width: 100%;
   height: 100%;
 }
+
+/*******************Contact-hover*******************/
+.ContactNavigation-blcok{
+  position: relative;
+  height: 150px;
+  float:left;
+  width: 33.3%;
+}
+
+
 

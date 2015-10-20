@@ -8,7 +8,7 @@ var Map = React.createClass({
 			<div className="Map">
 				<div className="Map-title">
        	            <p className="Map-title-p">
-       	                <span className="Map-title-p-title-span-a">产品介绍 </span>
+       	                <span className="Map-title-p-title-span-a">联系我们</span>
        	                <span className="Map-title-span-b"> /Contact Us</span>
        	            </p>
        	        </div>
