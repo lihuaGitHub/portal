@@ -39,6 +39,7 @@ body{
   font-size: 16px;
   font-family: "微软雅黑";
   font-weight: bold;
+  text-decoration: none;
 }
 .Header-list-li a:hover{
   color: #297b99;
@@ -452,8 +453,102 @@ background: #4d91aa;
   position: relative;
   height: 150px;
   float:left;
-  width: 33.3%;
+  width: 33.33%;
 }
-
-
-
+.de-ContactUs{
+    width: 1170px;
+    margin: 0 auto;
+}
+/*******************ContactUs*******************/
+.ContactUs{
+    width: 575px;
+    float: left;
+    margin-top: 90px;
+    padding-left: 10px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+.ContactUs-title{
+    margin-bottom: 30px;
+    font-size: 1.715em;
+    color: #297b99;
+}
+.ContactUs-p{
+    height: 25px;
+    line-height: 25px;
+    color: 999999;
+}
+/*******************Feedback*******************/
+.de-Feedback{
+    width: 1170px;
+    margin: 0 auto;
+}
+.de-Feedback label{
+    font-size: 1.143em;
+    color: #297b99;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+.FeedbackForm{
+    width: 760px;
+    margin-left: 190px;
+    padding-top: 90px;
+    border: none;
+}
+.FeedbackUser,
+.FeedbackEmail{
+    width: 280px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    background: #cccccc;
+    border: none;
+}
+.FeedbackEmail{}
+.FeedbackTitle{
+    width: 686px;
+    height: 40px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    background: #cccccc;
+    margin-left: 20px;
+    border: none;
+}
+.FeedbackContent{
+    width: 676px;
+    height: 160px;
+    background: #cccccc;
+    padding: 10px;
+    margin-left: 20px;
+    vertical-align: top;
+    border: none;
+}
+.FeedbackSub{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background: #f40;
+    margin-left: 320px;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    border: none;
+}
+.labelForContent{
+    vertical-align: top;
+}
+.Feedback-div{
+    width: 50%;
+    float: left;
+}
+.Feedback-div-padding{
+    margin-left: 25px;
+}
+/*******************JoinUs*******************/
+.JoinUs{
+    width: 1170px;
+    margin: 0 auto;
+}
